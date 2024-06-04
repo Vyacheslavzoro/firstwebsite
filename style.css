@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Выровнять элементы по верхнему краю */
+    align-items: center;
+    background-color: black;
+}
+
+/* Карточка лего*/
+
+
+
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Три колонки равной ширины */
+    max-width: 1200px; /* Ограничение ширины контейнера */
+    margin-top: 20px;
+}
+
+.card{
+    width: 320px;
+    height: 400px;
+    background-color: #122936;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Фото */
+.card__img{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+/*Название*/
+
+.card__name{
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+/* Стоимость */
+
+.card__price{
+    font-size: 25px;
+    margin: 0 0 17px;
+}
+
+.card__currency{
+    font-size: 17px;
+}
+
+
+/* Кнопка */
+
+.card__btn{
+    border: none;
+    cursor: pointer;
+    background: #02a717;
+    padding: 15px 30px;
+    margin: 0 0 50px;
+    border-radius: 30px;
+    color: inherit;
+    text-transform: inherit;
+    font-weight: inherit;
+}
+
+.card__btn:hover{
+    background-color: #038614;
+}
+
+
+/* Заголовок и его фон */
+.header {
+    font-size: 50px;
+    background-color: #122936;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Навигация */
+.nav-links {
+    display: flex;
+    gap: 37px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 5px;
+
+}
+
+.nav-links h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #02a717;
+    border-radius: 10px;
+}
+
+.nav-links h1:hover {
+    background-color: #038614;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #122936;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.footer-section {
+    flex: auto;
+    min-width: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+

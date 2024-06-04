@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Клюкин Вячеслав Евгеньевич">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<!-- Заголовок -->
+<div class="header">
+    <h1>Legostore</h1>
+    <div class="nav-links">
+        <h1>О нас</h1>
+        <h1>Купить</h1>
+        <h1>Контакты</h1>
+        <h1>Корзина</h1>
+    </div>
+</div>
+
+<!-- Картотека -->
+<div class="container">
+    <!-- 1 карточка -->
+    <article class="card">
+        <img src="spidermanbyVasya.png" alt="Человек-паук лего" class="card__img">
+        <h2 class="card__name"> Лего Человек-паук</h2>
+        <p class="card__price">9.990 <span class="card__currency">руб</span></p>
+        <button class="card__btn" onclick="addToCart()">В корзину </button>
+    </article>
+
+    <!-- 2 карточка -->
+    <article class="card">
+        <img src="ekbyVasya.png" alt="Артист 1" class="card__img">
+        <h2 class="card__name"> Лего Артист 1</h2>
+        <p class="card__price">6.990 <span class="card__currency">руб</span></p>
+        <button class="card__btn" onclick="addToCart()">В корзину </button>
+    </article>
+
+    <!-- 3 карточка -->
+    <article class="card">
+        <img src="morgenbyVasya.png" alt="Артист 2" class="card__img">
+        <h2 class="card__name"> Лего Артист 2</h2>
+        <p class="card__price">5.990 <span class="card__currency">руб</span></p>
+        <button class="card__btn" onclick="addToCart()">В корзину </button>
+    </article>
+
+    <!-- 4 карточка -->
+    <article class="card">
+        <img src="ogbyVasya.png" alt="Артист 3" class="card__img">
+        <h2 class="card__name"> Лего Артист 3</h2>
+        <p class="card__price">4.990 <span class="card__currency">руб</span></p>
+        <button class="card__btn" onclick="addToCart()">В корзину </button>
+    </article>
+
+
+    <!-- 5 карточка -->
+    <article class="card">
+        <img src="spidermanbyVasya.png" alt="Человек-паук лего 2" class="card__img">
+        <h2 class="card__name"> Лего Человек-паук 2</h2>
+        <p class="card__price">9.999 <span class="card__currency">руб</span></p>
+        <button class="card__btn" onclick="addToCart()">В корзину </button>
+    </article>
+
+
+    <!-- 6 карточка -->
+    <article class="card">
+        <img src="ekbyVasya.png" alt="Артист 1.2" class="card__img">
+        <h2 class="card__name"> Лего Артист 1.2</h2>
+        <p class="card__price">6.999 <span class="card__currency">руб</span></p>
+        <button class="card__btn" onclick="addToCart()">В корзину </button>
+    </article>
+</div>
+
+
+
+<!-- Footer -->
+<div class="footer">
+    <div class="footer-section">
+        <h4>О компании</h4>
+    </div>
+    <div class="footer-section">
+        <h4>Контакты</h4>
+    </div>
+    <div class="footer-section">
+        <h4>Социальные сети</h4>
+    </div>
+    <div class="footer-section">
+        <h4>Полезные ссылки</h4>
+    </div>
+</div>
+
+
+<script>
+    function addToCart() {
+        alert('Добавлено в корзину');
+    }
+</script>
+
+
+</body>
+
+</html>
